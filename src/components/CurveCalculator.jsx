@@ -64,7 +64,7 @@ export default function CurveCalculator() {
 						</p>
 					</div>
 
-					<div className="grid grid-cols-2 gap-3">
+					<div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
 						<div className="space-y-2">
 							<label htmlFor="warm-outside" className="text-xs text-slate-600">
 								Warm day — Outside (°C)
@@ -174,7 +174,7 @@ export default function CurveCalculator() {
 											Target flow temp based on your two example settings
 										</div>
 										<div className="text-2xs text-slate-400 mt-2">
-											~ Results are approximate — actual system temps may vary.
+											Results are approximate — actual system temps may vary.
 										</div>
 									</>
 								) : (
